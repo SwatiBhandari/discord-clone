@@ -1,0 +1,177 @@
+.ChatHeader{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    color: gray;
+    padding: 10px;
+
+}
+
+.ChatHeader__hash{
+    color: gray;
+    font-size: 30px;
+    padding: 10px;
+}
+
+.ChatHeader__left h3{
+    display: flex;
+    align-items: center;
+    color: white;
+}
+
+.ChatHeader__right{
+    display: flex;
+    align-items: center;
+    flex: 0.5;
+    justify-content: space-between;
+}
+
+.ChatHeader__right, .Mui-SvgIcon-root{
+    padding: 5px;
+    cursor: pointer;
+}
+
+.ChatHeader__right .ChatHeader__Logo:hover{
+    color: white;
+}
+
+.chatHeader__search{
+    display: flex;
+    align-items: center;
+    color: gray;
+    background-color: #2f3135;
+    border-radius: 3px;
+    padding: 3px;
+}
+
+.chatHeader__search input{
+    background: transparent;
+    outline-width: 0;
+    color: white;
+    border: none;
+}
+
+
+.bell_options {
+    position: fixed;
+    top: 20%;
+    left: 65%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    background-color: black;
+    padding: 10px;
+    z-index: 1; /* Ensure the dropdown is above other content */
+}
+
+.bell_options p{
+    padding: 5px;
+}
+
+.bell_option_single{
+    display: flex;
+    padding: 5px;
+    justify-content: space-between;
+}
+
+.bell_option_single label{
+    padding-right: 10px;
+}
+
+.bell_option_single input{
+    margin-bottom: -5px;
+}
+
+.Pinned{
+    color: aliceblue;
+    border-radius: 5px;
+    width: 26%;
+    position: fixed;
+    top: 35%;
+    left: 75%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 1; /* Ensure the dropdown is above other content */
+}
+
+.Pinned_1{
+    display: flex;
+    padding: 10px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    border-top-left-radius: 5px;
+    border-top-right-radius: 5px;
+}
+
+.Pinned_2{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    align-items: center;
+    justify-content: center;
+    background-color: #2f3135;
+}
+
+.Pinned_2 p{
+    margin-left: 10px;
+    margin-right: 10px;
+    text-align: center;
+}
+
+.Pinned_3{
+    display: flex;
+    flex-direction: column;
+    padding: 10px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    align-items: center;
+    justify-content: center;
+    background-color: black;
+    text-align: center;
+    border-bottom-left-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.pro{
+    font-weight: 600;
+    color: #24AB70;
+}
+
+.icon_size{
+    font-size: 30px;
+}
+
+.hr-custom {
+    border: none; /* Remove default border */
+    height: .1px; /* Set the height of the line */
+    background-color: rgb(68, 68, 68); /* Set the color of the line */
+    margin: 10px 0; /* Adjust margin as needed */
+  }
+
+  .Inbox{
+    color: aliceblue;
+    border-radius: 5px;
+    width: 26%;
+    position: fixed;
+    top: 25%;
+    left: 70%;
+    transform: translate(-50%, -50%);
+    display: flex;
+    flex-direction: column;
+    border-radius: 5px;
+    padding: 10px;
+    z-index: 1;
+  }
+
+  .Inbox_1{
+    display: flex;
+    align-items: center;
+    background-color: black;
+  }
