@@ -136,6 +136,7 @@ function Chat() {
           message={message.message}
           user={message.user}/>
         ))}
+        <div ref={messagesEndRef} className='extra'></div>
       </div>
 
       <div className='chat__input'>
